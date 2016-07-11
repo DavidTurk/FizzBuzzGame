@@ -16,7 +16,7 @@ namespace TestFizzBuzzGame
             var expectedList = new List<String> { "1", "2" };
             var actualList = FizzBuzz.GetFizzBuzzList(2);
 
-            actualList.ShouldBe(expectedList);
+            actualList.ShouldBe(expecteddList);
         }
 
         [Test]
