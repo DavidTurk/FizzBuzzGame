@@ -25,7 +25,7 @@ namespace FizzBuzzGame
         private static String GetNextNumber(int i)
         {
             bool divisibleByThree = ((i % 3) == 0);
-            bool divisibleByFive = ((i % 5 == 0));
+            bool divisibleByFive = ((i % 5) == 0);
 
             if (divisibleByThree && divisibleByFive)
             {
